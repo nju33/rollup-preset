@@ -1,7 +1,7 @@
 {
   "name": "@nju33/rollup-preset",
   "description": "Preset for nju33",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "nju33 <nju33.ki@gmail.com>",
   "dependencies": {
     "lodash.compact": "^3.0.1",
