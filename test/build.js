@@ -18,4 +18,4 @@ rollup.rollup(config).then(bundle => {
   });
   config.cache = bundle;
   fs.writeFileSync(`${__dirname}/result.js`, result.code);
-});
+}).catch(err => console.log(err));
