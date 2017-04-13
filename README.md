@@ -51,6 +51,10 @@ const default = {
                   babel-plugin-transform-decorators-legacy \
                   babel-plugin-transform-object-rest-spread \
                   babel-plugin-transform-class-properties
+
+      if you wanna use flow syntax, execute below
+        yarn add -D babel-preset-flow
+
     */
     presets: [
       ['env', {
